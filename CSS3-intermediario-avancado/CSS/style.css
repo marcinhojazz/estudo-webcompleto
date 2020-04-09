@@ -1,0 +1,32 @@
+/* SELETOR UNIVERSAL */
+* {
+    /* border: 1px solid red; */
+}
+
+/* SELETOR DE TEXTO */
+h1 {
+    /* color: greenyellow; */
+}
+/* SELETOR DE CLASSE */
+.verde {
+    color: lightseagreen;
+}
+
+p.verde {
+    /* color: limegreen; */
+}
+
+/* Seletor ID */
+#cabecalho {
+    border: 1px solid blue;
+}
+
+li>a:hover {
+    text-decoration: none;
+    /* background: limegreen; */
+    border-bottom: 2px solid magenta;
+}
+
+span>a {
+    background: red;
+}
