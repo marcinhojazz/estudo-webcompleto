@@ -21,6 +21,7 @@ p.verde {
     border: 1px solid blue;
 }
 
+/* Seletor de Filho */
 li>a:hover {
     text-decoration: none;
     /* background: limegreen; */
@@ -29,4 +30,10 @@ li>a:hover {
 
 span>a {
     background: red;
+}
+
+
+/* seletor descendente */
+p a {
+    color: rgb(23, 211, 54);
 }

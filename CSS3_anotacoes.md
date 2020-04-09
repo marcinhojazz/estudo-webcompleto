@@ -49,4 +49,9 @@ EXEMPLO: p a {}
     Seleciona quaisquer elementos <a> que residem dentro de um elemento <p>, mesmo se houver outros elementos aninhados entre eles.
 
 SELETOR DE IRMÃO ADJACENTE - Seleciona um elemento que é o irmão próximo de outro. 
-EXEMPLO: h1 + p {} --- Seleciona o primeiro elemento <p> depois de qualquer elemento <h1> (mas não outros elementos <p>)
+EXEMPLO: h1 + p {} --- 
+    Seleciona o primeiro elemento <p> depois de qualquer elemento <h1> (mas não outros elementos <p>)
+
+SELETOR DE IRMÃO GERAL - Seleciona um elemento que é um irmão de outro, embora ele não precise ser o elemento diretamente precedente.
+EXEMPLO: h1-p {}
+    Se houvesse dois elementos <p> que fossem irmãos de um elemento <h1>, essa regra se aplicaria aos dois.
