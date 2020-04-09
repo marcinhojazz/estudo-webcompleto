@@ -10,7 +10,7 @@
 body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Helvetica', Arial, sans-serif;
-    background: #e6e6e6;
+    background: #242424;
 }
 
 #area-cabecalho {
@@ -32,6 +32,7 @@ body {
     background: white;
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 #area-postagens {
@@ -39,9 +40,9 @@ body {
     float: left;
 }
 
-#area-postagens, #area-lateral {
-    background: #4e4e4e;
-}
+/* #area-lateral {
+    background: orange;
+} */
 
 #area-lateral {
     width: 240px;
@@ -60,23 +61,44 @@ body {
     margin-bottom: 20px;
 }
 
+.conteudo-lateral {
+    background: rgb(241, 241, 241);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    /* border-bottom: 2px dotted #ccc; */
+} 
+
 
 /* Formatação do menu */
 a {
     text-decoration: none;
     border: 1px solid red;
-
 }
 
-
 a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
     color: #FFF;
     padding: 8px 12px;
 }
 
-a:hover {
+#area-cabecalho a:hover {
     color: #f7b600;
     background: #fff;
+    text-decoration: none;
+    /* border-bottom: 1px solid #f4f4f4; */
+
 }
 
 
@@ -87,6 +109,30 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: #565656;
+    background: orange;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    /* border: 1px solid red;  */
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+} 
