@@ -25,3 +25,10 @@ ELEMENTOS BLOCO
     exemplos: <!-- display: inline-block -->
 
 
+_______________________________-
+
+SELETORES
+
+Seletor Universal - Aplica-se em todos os elementos no documento.
+Exemplo: *{} Seleciona todos os elementos da página.
+
