@@ -37,3 +37,13 @@ span>a {
 p a {
     color: rgb(23, 211, 54);
 }
+
+/* Seletor de irmão adjacente */
+h1+p {
+    color: red;
+}
+
+/* Seletor de irmão geral */
+h1~p {
+    color: lightcoral;
+}

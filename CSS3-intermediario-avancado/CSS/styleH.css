@@ -1,0 +1,19 @@
+/* Herança e especificidade */
+* {
+    border: 1px solid blue;
+
+}
+
+body {
+    color: red;
+    font-size: 16px;
+    /* background-color: lightgray; */
+}
+
+.pagina {
+
+}
+
+p {
+    color: blue;
+}
