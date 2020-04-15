@@ -4,9 +4,12 @@ body {
 }
 
 #container {
-    width: 720px;
+    border: 1px solid red;
+    width: 90%;
     margin: 0 auto;
     background: #fff;
+    min-width: 720px;
+    /* max-width: 960px; */
 }
 
 #marca {
@@ -16,11 +19,6 @@ body {
     line-height: 100px;
 }
 
-#conteudo {
-    border: 1px solid red;
-    width: 520px;
-    float: right;
-}
 
 
 #rodape {
@@ -30,19 +28,30 @@ body {
 }
 
 #conteudo {
-    width: 520px;
+    border: 1px solid red;
+    width: 75%;
     float: right;
+}
+
+
+#navegacao {
+    border: 1px solid red;
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
 }
 
 #conteudo-principal {
     border: 1px solid red;
-    width: 320px;
+    width: 63%;
     float: left;
 }
 
 #conteudo-secundario {
     border: 1px solid red;
-    width: 180px;
+    width: 34%;
     float: right;
     background: #d1d1d1;
 }
@@ -56,14 +65,6 @@ body {
 }
 
 
-#navegacao {
-    border: 1px solid red;
-    width: 180px;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #d1d1d1;
-}
 
 #navegacao ul {
     list-style: none;
