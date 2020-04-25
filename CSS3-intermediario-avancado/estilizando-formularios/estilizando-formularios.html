@@ -4,44 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout de Largura Fixa</title>
-    <link rel="stylesheet" href="/CSS3-intermediario-avancado/estilizando-tabelas/style.css">
+    <link rel="stylesheet" href="/CSS3-intermediario-avancado/estilizando-formularios/style.css">
 </head>
 <body>
     
     <h2>Estilizando tabelas</h2>
-    <table>
+    <form>
 
-        <tr>
-            <th class="descricao">Código</th>
-            <th class="descricao">Produto</th>
-            <th class="numero">Preço</th>
-        </tr>
+        <fieldset>
+
+            <legend>Detalhes de contato</legend>
+            
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            
+            <div>
+                <label for="url">URL:</label>
+                <input type="text" name="url" id="url">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembrar de mim</legend>
+            <div>
+                <label for="">
+                    <input type="radio" name="lembrar" id="sim">Sim
+                </label>
+            </div>
+            
+            <div>
+                <label for="">
+                    <input type="radio" name="lembrar" id="nao">Não
+                </label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Comentários</legend>
+            
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="texto" id="nome"></textarea>
+            </div>
+
+        </fieldset>
         
-        <tr class="alternado">
-            <th>001</th>
-            <th>Notebook</th>
-            <th class="numero">R$ 2.500</th>
-        </tr>
-        
-        <tr class="alternado">
-            <th>002</th>
-            <th>Tablet</th>
-            <th class="numero">R$ 1.500</th>
-        </tr>
-        
-        <tr class="alternado">
-            <th>003</th>
-            <th>Iphone</th>
-            <th class="numero">R$ 3.500</th>
-        </tr>
-        
-        <tr class="alternado">
-            <th>004</th>
-            <th>Nexus</th>
-            <th class="numero">R$ 3.500</th>
-        </tr>
-        
-    </table>
+    </form>
+
 
     
 </body>
