@@ -1,1 +1,6 @@
 /* Estrutura do site */
+
+* {
+    margin: 0;
+    padding: 0;
+}
