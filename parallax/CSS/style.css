@@ -13,16 +13,44 @@ body, html {
     padding: 50px;
 }
 
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
 h3 {
     text-transform: uppercase;
     color: #111;
     text-align: center;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 /* EFEITO PARALLAX */
-.caixa1, .caixa2 {
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    position: relative;
     border: 1px solid red;
     height: 100%;
+    opacity: 0.7em%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .caixa1 {
@@ -31,4 +59,12 @@ h3 {
 
 .caixa2 {
     background-image: url(../img/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../img/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../img/imagem4.jpg);
 }
